@@ -3,7 +3,7 @@
 #include<stdio.h>
 void main()
 {
-	float basic,hra,da,conveyance,incentive,bonus,Total_Salary,sales;
+	float basic,hra,da,conveyance,incentive,bonus,TotalSalary,sales;
 	printf("Enter sales of medical representive");
 	scanf("%f",&sales);
 	basic=3000;
@@ -21,12 +21,12 @@ void main()
 		bonus=200;
 		
 	}
-	  Total_Salary=basic+hra+da+conveyance+incentive+bonus;
+	  TotalSalary=basic+hra+da+conveyance+incentive+bonus;
 	  printf("Basic:%2f\n",basic);
 	  printf("Hra:%2f\n",hra);
 	  printf("Da:%2f\n",da);
 	  printf("conveyance:%2f\n",conveyance);
 	  printf("Incentive:%2f\n",incentive);
 	  printf("Bonus:%2f\n",bonus);
-	  printf("Total Salary:%2f\n",Total_Salary);
+	  printf("Total Salary:%2f\n",TotalSalary);
 }
