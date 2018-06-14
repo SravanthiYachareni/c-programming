@@ -4,7 +4,7 @@ int main(void)
 {
 
 int value;
-printf("Enter the value");
+printf("Enter the value\n");
 scanf("%d",&value);
 if(value==100)
    printf("Exellent!!");
