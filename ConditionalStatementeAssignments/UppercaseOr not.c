@@ -3,15 +3,15 @@
 #include<stdio.h>
 void main()
 {
-	char ch;
+	char character;
 	printf("Enter a character\n");
-	scanf("%c",&ch);
-	if(ch>='A' && ch<='Z')
+	scanf("%c",&character);
+	if(character>='A' && character<='Z')
 	{
-		printf("%c is a uppercase alphabet",ch);
+		printf("%c is a uppercase alphabet",character);
 	}
 	else
 	{
-		printf("%c is not a uppercase alphabet",ch);
+		printf("%c is not a uppercase alphabet",character);
 	}
 }

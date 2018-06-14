@@ -1,3 +1,6 @@
+/* Program to check whether the given number is zero or not */
+/* Author:Sravanthi_Yachareni */
+
 #include<stdio.h>
 void main()
 {
