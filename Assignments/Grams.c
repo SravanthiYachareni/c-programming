@@ -4,11 +4,11 @@
 #include<conio.h>
 void main()
 {
-float kg, gr;
+float kilograms, grams;
 printf("Enter Kilogram");
-scanf("%f",&kg);
-gr=1000*kg;
-printf("%f Grams",gr);
+scanf("%f",&kilograms);
+grams=1000*kilograms;
+printf("%f Grams",grams);
 }
 
 

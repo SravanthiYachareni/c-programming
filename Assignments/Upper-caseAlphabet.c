@@ -4,9 +4,9 @@
 #include<conio.h>
 void main()
 {
-	char ch;
+	char character;
 	printf("Enter a lowercase alphabet");
-	scanf("%c",&ch);
-	ch=ch-32;
-	printf("Uppercase alphabet is:%c",ch);
+	scanf("%c",&character);
+	character=character-32;
+	printf("Uppercase alphabet is:%c",character);
 }
