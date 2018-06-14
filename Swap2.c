@@ -2,7 +2,6 @@
 /*Author:Sravanthi_Yachareni */ 
 
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	int a,b;
@@ -13,7 +12,7 @@ void main()
 	/*Swaping */
 	a=a+b;
 	b=a-b;
-	a-a-b;
+	a=a-b;
 	printf("Variable values after swaping\n");
 	printf("a=%d b=%d",a,b);
 }
