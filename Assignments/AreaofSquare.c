@@ -5,11 +5,11 @@
 #include<conio.h>
 void main()
 {
-int area,circumference,length;
+float area,circumference,length;
 	printf("Enter length of a square");
-	scanf("%d",&length);
+	scanf("%f",&length);
 	area=length*length;                  /* Area of a square=Length*Length */
 	circumference=4*length;        /* Circumference of a square=4*l */
-	printf("Area of a square is:%d\n",area);
-	printf("Circumference of a square is:%d",circumference);
+	printf("Area of a square is:%f\n",area);
+	printf("Circumference of a square is:%f",circumference);
 	}
