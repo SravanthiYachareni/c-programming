@@ -4,9 +4,9 @@
 #include<math.h>
 void main()
 {
-	int number, SquareRoot;
+	float number, SquareRoot;
 	printf("Enter a number ");
-	scanf("%d",&number);
+	scanf("%f",&number);
 	SquareRoot=sqrt(number);
-	printf("Square Root of %d is:%d",number,SquareRoot);
+	printf("Square Root of %f is:%f",number,SquareRoot);
 }
