@@ -4,7 +4,7 @@ Palindrome:Reverse of the given number is again the same number */
 #include<stdio.h>
 #include<conio.h>
 void main(){
-	int number,n,d,reverse;
+	int number,n,d,reverse=0;
 	printf("Enter any number:");
 	scanf("%d",&number);
 	n=number;
